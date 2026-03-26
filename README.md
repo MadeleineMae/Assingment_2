@@ -1,6 +1,9 @@
 Machine Learning Assignment 1
+
 This project assessed whether identifiable topics can be found in fraud emails to mitigate phishing attacks. 
 A BERTopics NLP unsupervised learning model was applied to a fraud email dataset. After some tuning of the UMAP and HDBSCAN it produces 26 topics. This was then validated through means of silhouette score, random seeds and manual annotations. 
+
+
 Getting Started Dependencies: 
 The libraries needed for this study include: 
 
@@ -22,4 +25,5 @@ Installing: The dataset used is https://www.kaggle.com/datasets/llabhishekll/fra
 Dataset is found in .gitignore, it is extremely large so it has been compressed.
 Authors: ex. Madeleine Butcher
 License: This porject is liscensed under the MIT License - see the LICENSE file for detials
-<img width="1192" height="1270" alt="image" src="https://github.com/user-attachments/assets/84481c76-a7ad-468c-854f-5ecf88455065" />
+
+
