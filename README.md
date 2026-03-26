@@ -3,6 +3,8 @@ Machine Learning Assignment 1
 This project assessed whether identifiable topics can be found in fraud emails to mitigate phishing attacks. 
 A BERTopics NLP unsupervised learning model was applied to a fraud email dataset. After some tuning of the UMAP and HDBSCAN it produces 26 topics. This was then validated through means of silhouette score, random seeds and manual annotations. 
 
+Please note that in the final validation of the model there is a line of code which is made as a comment. Remove this to create a new dataset, however if not, keep it as a comment otherwise it was overwrite the annotations in the dataset already made.
+
 
 Getting Started Dependencies: 
 The libraries needed for this study include: 
